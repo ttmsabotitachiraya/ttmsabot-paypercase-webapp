@@ -1,0 +1,113 @@
+# Node dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+public/build/
+.next/
+.nuxt/
+.vite/
+.esbuild/
+parcel-cache/
+.cache/
+
+# Vite / Rollup / bundler caches
+.vite/
+.vite/**/*
+.rollup.cache
+/.vite
+
+# Environment files (secrets)
+.env
+.env.*.local
+.env.local
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-debug.log.*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Test coverage and reports
+coverage/
+.nyc_output/
+jest-cache/
+jest-report/
+karma-reports/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+.*.swp
+*~
+~$*
+
+# TypeScript build artifacts
+lib/
+dist-*/
+*.tsbuildinfo
+
+# Misc caches
+.cache-loader/
+.rollup-plugin-cache/
+.cache/
+stylelintcache
+
+# Dependency lockfiles (usually commit these; uncomment to ignore if you intentionally do not want them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Secrets and keys
+secret-*.key
+*.pem
+*.key
+keys/
+
+# Generated icons / assets
+/icons/
+*.svg.cache
+
+# Miscellaneous
+.vagrant/
+tmp/
+temp/
+reports/
+
+# If you have build artifacts already committed (e.g. /dist or /node_modules),
+# .gitignore won't remove them. To remove tracked files after adding this .gitignore:
+#   git rm -r --cached node_modules dist
+#   git commit -m "Remove tracked build artifacts and add .gitignore"
+
+# End of file
