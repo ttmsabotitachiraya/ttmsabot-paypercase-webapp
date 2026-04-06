@@ -66,6 +66,7 @@ karma-reports/
 
 # TypeScript build artifacts
 lib/
+!src/lib/
 dist-*/
 *.tsbuildinfo
 
