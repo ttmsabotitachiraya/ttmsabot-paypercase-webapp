@@ -445,7 +445,6 @@
 
 <script setup>
 import { ref, computed } from "vue";
-import * as XLSX from "xlsx";
 import { supabase } from "@/lib/supabase";
 import { formatDate, formatCurrency, formatMonthYear } from "@/utils/format";
 
